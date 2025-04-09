@@ -244,8 +244,7 @@ print(pd.DataFrame(
 
 运行结果
 
-<img width="536" alt="6 4" src="https://github.com/user-attachments/assets/e539449b-8c31-4583-8f2b-81ad4e3bcd2b" />
-
+<img width="536" alt="6 4" src="https://github.com/user-attachments/assets/95921426-0a7a-4f68-912e-a43d2cb4e454" />
 
 
 
