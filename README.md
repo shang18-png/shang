@@ -56,7 +56,10 @@ features, vectorizer = extract_features(
     max_df=0.85,                   # 忽略文档频率>85%的词
     min_df=2                       # 忽略文档频率<2的词
 )
-``` 
+```
+运行结果
+<img width="890" alt="3 1" src="https://github.com/user-attachments/assets/7ca191b2-592a-4c51-b5c3-7775b66976fd" />
+
 # 附加5
 ```python
 # -*- coding: utf-8 -*-
@@ -145,6 +148,9 @@ cv_scores = cross_val_score(
 )
 print(f"5折交叉验证 F1 分数: {cv_scores.mean():.3f} (±{cv_scores.std():.3f})")
 ```
+
+运行结果
+
 <img width="620" alt="5 3" src="https://github.com/user-attachments/assets/4373f8c1-1ca3-4fe3-83f2-cdc1d7bf8d1f" />
 
 # 附加6
@@ -235,6 +241,9 @@ print(pd.DataFrame(
     columns=['预测普通类', '预测重要类']
 ))
 ```
+
+运行结果
+
 <img width="536" alt="6 4" src="https://github.com/user-attachments/assets/e539449b-8c31-4583-8f2b-81ad4e3bcd2b" />
 
 
